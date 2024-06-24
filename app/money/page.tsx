@@ -2,7 +2,7 @@
 import { useState } from "react"
 
 
-export default function(){
+export default function money(){
     const [money, setMoney]=useState(0);
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
@@ -24,3 +24,4 @@ export default function(){
       </div>
     )
 }
+
