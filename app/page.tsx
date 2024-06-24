@@ -22,6 +22,10 @@ export default function Home() {
           Color
         </button>
       </div>
+      <br />
+      <br />
+      
+      <h2>By Gaurav Sharma</h2>
     </div>
   );
 }
