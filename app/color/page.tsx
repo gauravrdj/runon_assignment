@@ -7,7 +7,7 @@ const initialColors = [
     '#00B3E6', '#E6B333', '#3366E6', '#999966'
   ];
 
-export default function colorPallet(){
+export default function ColorPallet(){
     const [colors, setColors] = useState(initialColors);
 
   const handleColorChange = (index:any, newColor:any) => {
